@@ -1,0 +1,21 @@
+# Virtual Environment
+mask_env/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model file (optional – agar nahi dalna to)
+# mask_detector.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Dataset folders (bohot badi hain)
+Train/
+Test/
+Validation/
