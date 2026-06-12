@@ -96,8 +96,8 @@ python detect.py
 
 ## Team
 
-| Name | Role |
-|------|------|
+| Name | 
+|------|
 | Taha Sohail| 
 
 
