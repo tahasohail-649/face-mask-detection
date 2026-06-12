@@ -99,15 +99,16 @@ python detect.py
 ## Team
 ```
 Taha Sohail
-```
+
 BS Computer Science (2022-2026)
-```
+
 Hazara University, Mansehra
-```
+
 Institution: Department of Computer Science, Hazara University Mansehra
-```
+
 
 ---
+
 ## License
 
 For academic use only. Not licensed for commercial deployment.
