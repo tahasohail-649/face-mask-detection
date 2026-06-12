@@ -48,15 +48,11 @@ Trained on 12,000+ images with **99.87% accuracy**.
 
 ### 1. Clone the repository
 ```bash
-### 2. Author
+## 👨‍💻 Author
 
 **Taha Sohail**  
 BS Computer Science (2022-2026)  
 Hazara University, Mansehra  
-
-**Work:** Complete project – dataset collection, model training (MobileNetV2), real-time webcam integration, frontend/backend development
-
-**Supervisor:** Dr. Zulfiqar Ahmed
 
 [GitHub](https://github.com/tahasohail-649) | [LinkedIn](https://linkedin.com/in/taha-sohail-756225318) | [Email](mailto:tahasohail649@gmail.com)
 
@@ -65,7 +61,3 @@ Hazara University, Mansehra
 For academic use only. Not licensed for commercial deployment.
 
 
-[GitHub](https://github.com/tahasohail-649) | [LinkedIn](https://linkedin.com/in/taha-sohail-756225318) | [Email](mailto:tahasohail649@gmail.com)
-
-git clone https://github.com/tahasohail-649/face-mask-detection.git
-cd face-mask-detection
