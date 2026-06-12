@@ -13,7 +13,7 @@ Trained on 12,000+ images with **99.87% accuracy**.
 - 🟢 Single face box (no duplicates)
 
 ---
-## 📁 Project Structure
+## Project Structure
 face-mask-detector/
 │
 ├── train.py # Model training script
