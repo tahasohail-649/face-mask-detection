@@ -1,4 +1,4 @@
-# Face Mask Detection
+# Real-Time Face Mask Detection
 
 Real-time face mask detection using **MobileNetV2** and **OpenCV**.  
 Trained on 12,000+ images with **99.87% accuracy**.
@@ -48,7 +48,7 @@ Trained on 12,000+ images with **99.87% accuracy**.
 
 ### 1. Clone the repository
 ```bash
-
+## Author
 **Taha Sohail**  
 BS Computer Science (2022-2026)  
 Hazara University, Mansehra  
