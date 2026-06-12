@@ -48,5 +48,12 @@ Trained on 12,000+ images with **99.87% accuracy**.
 
 ### 1. Clone the repository
 ```bash
+
+**Taha Sohail**  
+BS Computer Science (2022-2026)  
+Hazara University, Mansehra  
+
+[GitHub](https://github.com/tahasohail-649) | [LinkedIn](https://linkedin.com/in/taha-sohail-756225318) | [Email](mailto:tahasohail649@gmail.com)
+
 git clone https://github.com/tahasohail-649/face-mask-detection.git
 cd face-mask-detection
