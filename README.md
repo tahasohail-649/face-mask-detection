@@ -64,11 +64,9 @@ face-mask-detector/
 
 ## Setup
 
-```bash
 ### 1.Environment
 python -m venv mask_env
 ```
-
 
 ### 2.Activate virtual environment
 ```bash
@@ -98,13 +96,21 @@ python detect.py
 ---
 
 ## Team
-
+```bash
 Taha Sohail
+```
+```bash
 BS Computer Science (2022-2026)
-Hazara University, Mansehra 
-**Institution:** Department of Computer Science, Hazara University Mansehra  
+```
+```bash
+Hazara University, Mansehra
+```
+```bash
+**Institution:** Department of Computer Science, Hazara University Mansehra
+```
+```bash  
 **Degree:** BS Computer Science — Final Year Project 2026
-
+```
 ---
 ## License
 
