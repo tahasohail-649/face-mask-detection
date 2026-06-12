@@ -14,37 +14,34 @@ Trained on 12,000+ images with **99.87% accuracy**.
 
 ---
 ## Project Structure
+```
 face-mask-detector/
 │
-├── train.py # Model training script
-
-├── detect.py # Real-time detection script
-
+├── train.py # Model training script (MobileNetV2)
+├── detect.py # Real-time detection script (webcam)
 ├── mask_detector.h5 # Trained model (99.87% accuracy)
-
 ├── requirements.txt # Python dependencies
-
 ├── README.md # Project documentation
-
 │
-├── Train/ # Training images
-
+├── Train/ # Training dataset
 │ ├── WithMask/ # Mask images (~6000)
-
+│ │ └── *.jpg, *.png
 │ └── WithoutMask/ # No mask images (~6000)
-
+│ └── *.jpg, *.png
 │
-├── Test/ # Testing images
-
+├── Test/ # Testing dataset
 │ ├── WithMask/
-
+│ │ └── *.jpg, *.png
 │ └── WithoutMask/
+│ └── *.jpg, *.png
 │
-└── Validation/ # Validation images
-
+└── Validation/ # Validation dataset
 ├── WithMask/
-
+│ └── *.jpg, *.png
 └── WithoutMask/
+└── *.jpg, *.png
+```
+
 ---
 ## Tech Stack
 
@@ -67,29 +64,27 @@ face-mask-detector/
 
 ## Setup
 
-**1.Environment**
-<img width="239" height="69" alt="image" src="https://github.com/user-attachments/assets/756dad5b-7a42-4a57-9753-da6117905237" />
-
-**2.Activate virtual environment**
-Windows (PowerShell):
-<img width="250" height="76" alt="image" src="https://github.com/user-attachments/assets/cbe5e22d-cb8f-4739-9d7a-2ffffb9c1a13" />
-Windows (cmd):
-<img width="289" height="79" alt="image" src="https://github.com/user-attachments/assets/c63a62c5-940f-4bf5-867e-e80fe2bf167c" />
-
-**3.Install dependencies**
-<img width="235" height="79" alt="image" src="https://github.com/user-attachments/assets/73021f10-e172-439a-8e67-d3aef5b6fe39" />
-
-**4.Run real-time detection**
-<img width="211" height="78" alt="image" src="https://github.com/user-attachments/assets/316583aa-e840-48a3-b24b-a6c56203f6ef" />
+```bash
+### 1.Environment
+python -m venv mask_env
+```
 
 
+### 2.Activate virtual environment
+```bash
+mask_env\Scripts\Activate.ps1
+```
 
+### 3.Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-
-
-
-
-
+### 4.Run real-time detection
+```bash
+python detect.py
+```
+---
 ## Results
 
 | Metric | Value |
@@ -100,18 +95,17 @@ Windows (cmd):
 
 ---
 
-## How to Run
+---
 
-### 1. Clone the repository
+## Team
 
-##  **Author**
+Taha Sohail
+BS Computer Science (2022-2026)
+Hazara University, Mansehra 
+**Institution:** Department of Computer Science, Hazara University Mansehra  
+**Degree:** BS Computer Science — Final Year Project 2026
 
-**Taha Sohail**  
-BS Computer Science (2022-2026)  
-Hazara University, Mansehra  
-
-[GitHub](https://github.com/tahasohail-649) | [LinkedIn](https://linkedin.com/in/taha-sohail-756225318) | [Email](mailto:tahasohail649@gmail.com)
-
+---
 ## License
 
 For academic use only. Not licensed for commercial deployment.
