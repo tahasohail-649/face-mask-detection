@@ -17,21 +17,33 @@ Trained on 12,000+ images with **99.87% accuracy**.
 face-mask-detector/
 │
 ├── train.py # Model training script
+
 ├── detect.py # Real-time detection script
+
 ├── mask_detector.h5 # Trained model (99.87% accuracy)
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 │
 ├── Train/ # Training images
+
 │ ├── WithMask/ # Mask images (~6000)
+
 │ └── WithoutMask/ # No mask images (~6000)
+
 │
 ├── Test/ # Testing images
+
 │ ├── WithMask/
+
 │ └── WithoutMask/
 │
 └── Validation/ # Validation images
+
 ├── WithMask/
+
 └── WithoutMask/
 
 ## Tech Stack
