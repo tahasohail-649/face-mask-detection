@@ -45,7 +45,7 @@ face-mask-detector/
 ├── WithMask/
 
 └── WithoutMask/
-
+---
 ## Tech Stack
 
 | Technology | Purpose |
@@ -63,8 +63,14 @@ face-mask-detector/
 - **Source:** Kaggle – Face Mask 12k Images Dataset (Ashish Jangra)
 - **Images:** 12,000+
 - **Classes:** With Mask / Without Mask
-
 ---
+
+## setup
+
+1. Environment
+<img width="239" height="69" alt="image" src="https://github.com/user-attachments/assets/756dad5b-7a42-4a57-9753-da6117905237" />
+
+
 
 ## Results
 
