@@ -1,0 +1,52 @@
+# Face Mask Detection
+
+Real-time face mask detection using **MobileNetV2** and **OpenCV**.  
+Trained on 12,000+ images with **99.87% accuracy**.
+
+---
+
+## Features
+
+- 🟢 Real-time face mask detection via webcam
+- 🟢 Green box = **Mask** | 🔴 Red box = **No Mask**
+- 🟢 Works with beard, glasses, and different lighting
+- 🟢 Single face box (no duplicates)
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python 3.12 | Programming language |
+| TensorFlow / Keras | Deep learning model |
+| MobileNetV2 | Pre-trained CNN (transfer learning) |
+| OpenCV | Face detection + webcam integration |
+| scikit-learn | Train-test split |
+
+---
+
+## Dataset
+
+- **Source:** Kaggle – Face Mask 12k Images Dataset (Ashish Jangra)
+- **Images:** 12,000+
+- **Classes:** With Mask / Without Mask
+
+---
+
+## Results
+
+| Metric | Value |
+|--------|-------|
+| Training Accuracy | **99.87%** |
+| Validation Accuracy | **99.75%** |
+| Loss | 0.0153 |
+
+---
+
+## How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/tahasohail-649/face-mask-detection.git
+cd face-mask-detection
