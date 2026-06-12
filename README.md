@@ -94,17 +94,15 @@ python detect.py
 
 ---
 
----
-
 ## Team
-```
-Taha Sohail
 
-BS Computer Science (2022-2026)
+| Name | Role |
+|------|------|
+| Taha Sohail| 
 
-Hazara University, Mansehra
 
-Institution: Department of Computer Science, Hazara University Mansehra
+
+**Institution:** Department of Computer Science, Hazara University Mansehra  
 
 
 ---
